@@ -1,0 +1,15 @@
+{
+  "name": "design_par_les_tests_s1",
+  "version": "1.0.0",
+  "description": "Design par les tests - Séance 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive --exit --timeout 10000 --reporter nyan"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
