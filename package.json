@@ -2,14 +2,24 @@
   "name": "design_par_les_tests_s1",
   "version": "1.0.0",
   "description": "Design par les tests - Séance 1",
-  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
-    "test": "NODE_ENV=test mocha --recursive --exit --timeout 10000 --reporter nyan"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0"
+    "@types/chai": "^4.3.12",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.28",
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.4.2"
   }
 }
